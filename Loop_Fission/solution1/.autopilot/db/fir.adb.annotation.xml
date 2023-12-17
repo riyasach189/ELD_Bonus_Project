@@ -1,0 +1,15 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="12" filename="Loop_Fission/top.cpp" linenumber="17" name="icmp_ln17" contextFuncName="fir" moduleName="fir" rtlName="icmp_ln17_fu_128_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="16" filename="Loop_Fission/top.cpp" linenumber="19" name="i" contextFuncName="fir" moduleName="fir" rtlName="i_fu_134_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="17" filename="Loop_Fission/top.cpp" linenumber="19" name="zext_ln19" contextFuncName="fir" moduleName="fir" rtlName="zext_ln19_fu_140_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="20" filename="Loop_Fission/top.cpp" linenumber="19" name="zext_ln19_1" contextFuncName="fir" moduleName="fir" rtlName="zext_ln19_1_fu_145_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="30" filename="Loop_Fission/top.cpp" linenumber="26" name="icmp_ln26" contextFuncName="fir" moduleName="fir" rtlName="icmp_ln26_fu_150_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="34" filename="Loop_Fission/top.cpp" linenumber="28" name="zext_ln28" contextFuncName="fir" moduleName="fir" rtlName="zext_ln28_fu_156_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="40" filename="Loop_Fission/top.cpp" linenumber="28" name="mul_ln28" contextFuncName="fir" moduleName="fir" rtlName="mul_ln28_fu_176_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="41" filename="Loop_Fission/top.cpp" linenumber="28" name="acc" contextFuncName="fir" moduleName="fir" rtlName="acc_fu_181_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="42" filename="Loop_Fission/top.cpp" linenumber="26" name="i_1" contextFuncName="fir" moduleName="fir" rtlName="i_1_fu_162_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="45" filename="Loop_Fission/top.cpp" linenumber="31" name="mul_ln31" contextFuncName="fir" moduleName="fir" rtlName="mul_ln31_fu_168_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="46" filename="Loop_Fission/top.cpp" linenumber="31" name="acc_1" contextFuncName="fir" moduleName="fir" rtlName="output_r" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<\/annotationInfo>
+</annotationInfo>

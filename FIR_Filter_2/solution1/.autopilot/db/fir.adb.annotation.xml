@@ -1,0 +1,14 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="9" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="20" name="mul_ln20" contextFuncName="fir" moduleName="fir" rtlName="mul_ln20_fu_134_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="14" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="16" name="sext_ln16" contextFuncName="fir" moduleName="fir" rtlName="sext_ln16_fu_140_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="15" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="16" name="tmp" contextFuncName="fir" moduleName="fir" rtlName="tmp_fu_144_p3" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="20" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="18" name="icmp_ln18" contextFuncName="fir" moduleName="fir" rtlName="icmp_ln18_fu_152_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="23" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="26" name="add_ln26" contextFuncName="fir" moduleName="fir" rtlName="grp_fu_127_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="13" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="24" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="26" name="zext_ln26" contextFuncName="fir" moduleName="fir" rtlName="zext_ln26_fu_158_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="27" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="26" name="zext_ln26_1" contextFuncName="fir" moduleName="fir" rtlName="zext_ln26_1_fu_163_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="33" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="27" name="mul_ln27" contextFuncName="fir" moduleName="fir" rtlName="mul_ln27_fu_171_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="40" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="20" name="acc" contextFuncName="fir" moduleName="fir" rtlName="acc_fu_176_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="41" filename="FIR_Filter_2/fir_symmetry_optim.cpp" linenumber="16" name="i" contextFuncName="fir" moduleName="fir" rtlName="grp_fu_127_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="13" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<\/annotationInfo>
+</annotationInfo>

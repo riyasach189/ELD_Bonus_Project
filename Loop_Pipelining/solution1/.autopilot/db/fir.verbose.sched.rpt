@@ -1,0 +1,148 @@
+
+
+================================================================
+== Vivado HLS Report for 'fir'
+================================================================
+* Date:           Wed Dec 13 20:57:02 2023
+
+* Version:        2019.1 (Build 2552052 on Fri May 24 15:28:33 MDT 2019)
+* Project:        Loop_Pipelining
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|     8.510|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   11|   11|   11|   11|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |          |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        | Loop Name| min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1  |   10|   10|         2|          -|          -|     5|    no    |
+        +----------+-----+-----+----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 3
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 2 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.76>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32* %output_r) nounwind, !map !7"   --->   Operation 4 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecBitsMap(i32 %input_r) nounwind, !map !13"   --->   Operation 5 'specbitsmap' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecTopModule([4 x i8]* @fir_str) nounwind"   --->   Operation 6 'spectopmodule' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%input_read = call i32 @_ssdm_op_Read.ap_auto.i32(i32 %input_r) nounwind" [Loop_Pipelining/top.cpp:8]   --->   Operation 7 'read' 'input_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (1.76ns)   --->   "br label %1" [Loop_Pipelining/top.cpp:16]   --->   Operation 8 'br' <Predicate = true> <Delay = 1.76>
+
+State 2 <SV = 1> <Delay = 8.51>
+ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%i_0 = phi i3 [ -3, %0 ], [ %i, %2 ]"   --->   Operation 9 'phi' 'i_0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 10 [1/1] (1.13ns)   --->   "%icmp_ln16 = icmp eq i3 %i_0, 0" [Loop_Pipelining/top.cpp:16]   --->   Operation 10 'icmp' 'icmp_ln16' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.13> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 5, i64 5, i64 5) nounwind"   --->   Operation 11 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "br i1 %icmp_ln16, label %3, label %2" [Loop_Pipelining/top.cpp:16]   --->   Operation 12 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 13 [1/1] (1.65ns)   --->   "%i = add i3 %i_0, -1" [Loop_Pipelining/top.cpp:18]   --->   Operation 13 'add' 'i' <Predicate = (!icmp_ln16)> <Delay = 1.65> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%zext_ln18 = zext i3 %i to i64" [Loop_Pipelining/top.cpp:18]   --->   Operation 14 'zext' 'zext_ln18' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%shift_reg_addr = getelementptr inbounds [6 x i32]* @shift_reg, i64 0, i64 %zext_ln18" [Loop_Pipelining/top.cpp:18]   --->   Operation 15 'getelementptr' 'shift_reg_addr' <Predicate = (!icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 16 [2/2] (2.32ns)   --->   "%shift_reg_load = load i32* %shift_reg_addr, align 4" [Loop_Pipelining/top.cpp:18]   --->   Operation 16 'load' 'shift_reg_load' <Predicate = (!icmp_ln16)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 6> <RAM>
+ST_2 : Operation 17 [1/1] (8.51ns)   --->   "%acc = mul nsw i32 %input_read, 53" [Loop_Pipelining/top.cpp:31]   --->   Operation 17 'mul' 'acc' <Predicate = (icmp_ln16)> <Delay = 8.51> <Core = "Mul">   --->   Core 16 'Mul' <Latency = 0> <II = 1> <Delay = 8.51> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 18 [1/1] (2.32ns)   --->   "store i32 %input_read, i32* getelementptr inbounds ([6 x i32]* @shift_reg, i64 0, i64 0), align 16" [Loop_Pipelining/top.cpp:32]   --->   Operation 18 'store' <Predicate = (icmp_ln16)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 6> <RAM>
+ST_2 : Operation 19 [1/1] (0.00ns)   --->   "call void @_ssdm_op_Write.ap_auto.i32P(i32* %output_r, i32 %acc) nounwind" [Loop_Pipelining/top.cpp:34]   --->   Operation 19 'write' <Predicate = (icmp_ln16)> <Delay = 0.00>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "ret void" [Loop_Pipelining/top.cpp:35]   --->   Operation 20 'ret' <Predicate = (icmp_ln16)> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 4.64>
+ST_3 : Operation 21 [1/2] (2.32ns)   --->   "%shift_reg_load = load i32* %shift_reg_addr, align 4" [Loop_Pipelining/top.cpp:18]   --->   Operation 21 'load' 'shift_reg_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 6> <RAM>
+ST_3 : Operation 22 [1/1] (0.00ns)   --->   "%zext_ln18_1 = zext i3 %i_0 to i64" [Loop_Pipelining/top.cpp:18]   --->   Operation 22 'zext' 'zext_ln18_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 23 [1/1] (0.00ns)   --->   "%shift_reg_addr_1 = getelementptr inbounds [6 x i32]* @shift_reg, i64 0, i64 %zext_ln18_1" [Loop_Pipelining/top.cpp:18]   --->   Operation 23 'getelementptr' 'shift_reg_addr_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 24 [1/1] (2.32ns)   --->   "store i32 %shift_reg_load, i32* %shift_reg_addr_1, align 4" [Loop_Pipelining/top.cpp:18]   --->   Operation 24 'store' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 6> <RAM>
+ST_3 : Operation 25 [1/1] (0.00ns)   --->   "br label %1" [Loop_Pipelining/top.cpp:16]   --->   Operation 25 'br' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 1.77ns
+The critical path consists of the following:
+	multiplexor before 'phi' operation ('i') with incoming values : ('i', Loop_Pipelining/top.cpp:18) [10]  (1.77 ns)
+
+ <State 2>: 8.51ns
+The critical path consists of the following:
+	'mul' operation ('acc', Loop_Pipelining/top.cpp:31) [24]  (8.51 ns)
+
+ <State 3>: 4.64ns
+The critical path consists of the following:
+	'load' operation ('shift_reg_load', Loop_Pipelining/top.cpp:18) on array 'shift_reg' [18]  (2.32 ns)
+	'store' operation ('store_ln18', Loop_Pipelining/top.cpp:18) of variable 'shift_reg_load', Loop_Pipelining/top.cpp:18 on array 'shift_reg' [21]  (2.32 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

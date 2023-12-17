@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.h" path="C:\Users\Riya_Sachdeva\Desktop\Loop_Fission\top.h"/>
+    <originFiles name="top.cpp" path="C:\Users\Riya_Sachdeva\Desktop\Loop_Fission\top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb.cpp" path="C:\Users\Riya_Sachdeva\Desktop\Loop_Fission\tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

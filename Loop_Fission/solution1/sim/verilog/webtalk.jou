@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Dec 13 19:46:35 2023
+# Process ID: 17280
+# Current directory: C:/Users/Riya_Sachdeva/Desktop/Loop_Fission/solution1/sim/verilog
+# Command line: wbtcv.exe -mode batch -source C:/Users/Riya_Sachdeva/Desktop/Loop_Fission/solution1/sim/verilog/xsim.dir/fir/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Riya_Sachdeva/Desktop/Loop_Fission/solution1/sim/verilog/webtalk.log
+# Journal file: C:/Users/Riya_Sachdeva/Desktop/Loop_Fission/solution1/sim/verilog\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Riya_Sachdeva/Desktop/Loop_Fission/solution1/sim/verilog/xsim.dir/fir/webtalk/xsim_webtalk.tcl -notrace

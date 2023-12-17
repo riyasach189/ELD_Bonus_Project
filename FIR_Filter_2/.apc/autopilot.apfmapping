@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fir_symmetry_optim.h" path="C:\Users\Riya_Sachdeva\Desktop\FIR_Filter_2\fir_symmetry_optim.h"/>
+    <originFiles name="fir_symmetry_optim.cpp" path="C:\Users\Riya_Sachdeva\Desktop\FIR_Filter_2\fir_symmetry_optim.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fir_no_optim_tb.cpp" path="C:\Users\Riya_Sachdeva\Desktop\FIR_Filter_1\fir_no_optim_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

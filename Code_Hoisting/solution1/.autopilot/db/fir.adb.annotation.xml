@@ -1,0 +1,12 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="13" filename="Code_Hoisting/top.cpp" linenumber="16" name="icmp_ln16" contextFuncName="fir" moduleName="fir" rtlName="icmp_ln16_fu_108_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="9" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="17" filename="Code_Hoisting/top.cpp" linenumber="18" name="i" contextFuncName="fir" moduleName="fir" rtlName="i_fu_114_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="12" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="18" filename="Code_Hoisting/top.cpp" linenumber="18" name="zext_ln18" contextFuncName="fir" moduleName="fir" rtlName="zext_ln18_fu_120_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="21" filename="Code_Hoisting/top.cpp" linenumber="18" name="zext_ln18_1" contextFuncName="fir" moduleName="fir" rtlName="zext_ln18_1_fu_125_p1" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="27" filename="Code_Hoisting/top.cpp" linenumber="19" name="mul_ln19" contextFuncName="fir" moduleName="fir" rtlName="mul_ln19_fu_138_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="28" filename="Code_Hoisting/top.cpp" linenumber="19" name="acc" contextFuncName="fir" moduleName="fir" rtlName="acc_fu_143_p2" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="31" filename="Code_Hoisting/top.cpp" linenumber="22" name="mul_ln22" contextFuncName="fir" moduleName="fir" rtlName="mul_ln22_fu_130_p2" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="32" filename="Code_Hoisting/top.cpp" linenumber="22" name="acc_1" contextFuncName="fir" moduleName="fir" rtlName="output_r" latency="0" BRAM="-1" DSP="-1" FF="0" LUT="39" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<\/annotationInfo>
+</annotationInfo>

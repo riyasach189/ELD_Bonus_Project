@@ -1,0 +1,5 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="7" filename="Loop_Unrolling/top.cpp" linenumber="32" name="acc" contextFuncName="fir" moduleName="fir" rtlName="output_r" latency="0" BRAM="-1" DSP="2" FF="0" LUT="20" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<\/annotationInfo>
+</annotationInfo>

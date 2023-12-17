@@ -1,0 +1,8 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../FIR_Filter_1/fir_no_optim_tb.cpp in debug mode
+   Compiling ../../../fir_symmetry_optim.cpp in debug mode
+   Generating csim.exe
+265
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

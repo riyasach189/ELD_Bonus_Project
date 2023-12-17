@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="top.cpp" path="C:\Users\Riya_Sachdeva\Desktop\Bit_Width_Optimization\top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="tb.cpp" path="C:\Users\Riya_Sachdeva\Desktop\Bit_Width_Optimization\tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

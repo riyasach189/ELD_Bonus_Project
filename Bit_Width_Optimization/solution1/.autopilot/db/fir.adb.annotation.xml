@@ -1,0 +1,6 @@
+<annotationInfo>
+<annotationInfo>
+<item  id="8" filename="Bit_Width_Optimization/top.cpp" linenumber="31" name="ret_V" contextFuncName="fir" moduleName="fir" rtlName="ret_V_fu_33_p2" latency="0" BRAM="-1" DSP="0" FF="0" LUT="26" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<item  id="9" filename="Bit_Width_Optimization/top.cpp" linenumber="31" name="acc_V" contextFuncName="fir" moduleName="fir" rtlName="output_V" latency="0" BRAM="-1" DSP="-1" FF="-1" LUT="-1" fileDirectory="C:\Users\Riya_Sachdeva\Desktop"><\/item>
+<\/annotationInfo>
+</annotationInfo>

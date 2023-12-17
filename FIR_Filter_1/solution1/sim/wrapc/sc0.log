@@ -1,0 +1,5 @@
+   Build using "C:/Xilinx/Vivado/2019.1/msys64/mingw64/bin/g++"
+   Compiling fir_no_optim_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_fir.cpp
+   Compiling fir_no_optim.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
